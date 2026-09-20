@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سطحة القنفذة | خدمة سحب ونقل السيارات 24/7</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepBlue: '#1E3A8A',
+                        deepBlueHover: '#1e3373',
+                        mintGreen: '#10B981',
+                        mintGreenHover: '#059669',
+                        lightBg: '#F9FAFB',
+                    },
+                    fontFamily: {
+                        tajawal: ['Tajawal', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #F9FAFB;
+        }
+        .pulse-btn {
+            animation: pulse-ring 2s infinite;
+        }
+        @keyframes pulse-ring {
+            0% {
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(16, 185, 129, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+            }
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased pb-24 md:pb-0">
+
+    <header class="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <div class="flex items-center space-x-3 space-x-reverse">
+                <div class="w-12 h-12 bg-deepBlue text-white rounded-xl flex items-center justify-center text-2xl shadow-md">
+                    <i class="fa-solid font-bold fa-truck-pickup"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-black text-deepBlue leading-none">سطحة القنفذة</h1>
+                    <p class="text-xs text-slate-500 font-medium mt-1">خدمة سحب ونقل السيارات بالقنفذة والمناطق المجاورة</p>
+                </div>
+            </div>
+
+            <!-- Header Badge & Quick Action -->
+            <div class="hidden md:flex items-center space-x-6 space-x-reverse">
+                <div class="flex items-center space-x-2 space-x-reverse bg-emerald-50 text-emerald-700 px-3 py-1.5 rounded-full border border-emerald-200 text-sm font-semibold">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+                    <span>متواجدون الآن - 24 ساعة</span>
+                </div>
+                <a href="tel:0506148530" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-bold text-white bg-mintGreen hover:bg-mintGreenHover transition shadow-md gap-2">
+                    <i class="fa-solid fa-phone text-lg"></i>
+                    <span>اتصل الآن: 0506148530</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative bg-deepBlue text-white py-16 lg:py-24 overflow-hidden">
+        <!-- Background Pattern Decor -->
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 text-center lg:text-right space-y-6">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-emerald-300 text-sm font-bold">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>استجابة سريعة وسحب أمن لسيارتك</span>
+                    </div>
+
+                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight">
+                        لا تقلق! نحن بالقرب منك في القنفذة لنقلك بأمان
+                    </h2>
+
+                    <p class="text-lg text-slate-200 max-w-2xl leading-relaxed">
+                        سواء تعرضت سيارتك لعطل مفاجئ أو حادث أو تحتاج لنقلها داخل القنفذة أو خارجها، فريقنا المجهز بالسطحات الحديثة والهيدروليك يتواجد لخدمتك على مدار الساعة.
+                    </p>
+
+                    <!-- Emergency CTAs -->
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="tel:0506148530" class="pulse-btn w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-black text-lg bg-mintGreen text-white hover:bg-mintGreenHover transition shadow-xl border border-emerald-400">
+                            <i class="fa-solid fa-phone-flip text-2xl"></i>
+                            <span>اتصل بالسطحة فوراً</span>
+                        </a>
+
+                        <a href="https://wa.me/966506148530" target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-bold text-lg bg-emerald-600/30 text-white hover:bg-emerald-600/50 backdrop-blur-md border border-emerald-400/40 transition">
+                            <i class="fa-brands fa-whatsapp text-2xl text-emerald-400"></i>
+                            <span>واتساب (مشاركة الموقع)</span>
+                        </a>
+                    </div>
+
+                    <!-- Direct Number Highlight -->
+                    <div class="pt-2 text-slate-300 text-sm font-medium">
+                        رقم التواصل المباشر: <span class="text-white font-bold text-base dir-ltr inline-block">0506148530</span>
+                    </div>
+                </div>
+
+                <!-- Featured Image Showcase -->
+                <div class="lg:col-span-5">
+                    <div class="relative mx-auto max-w-md lg:max-w-none rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
+                        <img src="https://images.unsplash.com/photo-1586193800447-59633675830c?auto=format&fit=crop&w=800&q=80" 
+                             alt="سطحة نقل سيارات بالقنفذة" 
+                             class="w-full h-80 lg:h-96 object-cover" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x600/1E3A8A/FFFFFF?text=%D8%B3%D8%B7%D8%AD%D8%A9+%D8%A7%D9%84%D9%82%D9%86%D9%81%D8%B0%D8%A9';">
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 text-white">
+                            <p class="font-bold text-lg"><i class="fa-solid fa-shield-halved text-emerald-400 ml-2"></i>خدمة آمنة ومضمونة 100%</p>
+                            <p class="text-xs text-slate-300 mt-1">تغطية شاملة لطرق القنفذة، الطرق السريعة والمناطق المجاورة</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-mintGreen font-bold text-sm tracking-wider uppercase">خدماتنا المتميزة</span>
+                <h3 class="text-3xl font-extrabold text-deepBlue mt-2">ماذا نقدم لك في سطحة القنفذة؟</h3>
+                <p class="text-slate-600 mt-3 text-base">نوفر حلول نقل وسحب جميع أنواع المركبات بأعلى معايير الأمان والاحترافية</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-lightBg rounded-2xl p-8 border border-slate-200/80 hover:shadow-lg transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 text-deepBlue rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-car-side"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-deepBlue mb-3">نقل السيارات الحديثة والمعطلة</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">نقل آمن للسيارات الحديثة والفاخرة أو المعطلة مع الحفاظ الكامل على سلامة جميع أجزاء المركبة.</p>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-lightBg rounded-2xl p-8 border border-slate-200/80 hover:shadow-lg transition duration-300">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-route"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-deepBlue mb-3">نقل بين المدن وداخل القنفذة</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">خدمات نقل داخل أحياء القنفذة وإلى مختلف مدن المملكة (جدة، مكة، جازان، عسير) بسرعة ومواعيد دقيقة.</p>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-lightBg rounded-2xl p-8 border border-slate-200/80 hover:shadow-lg transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 text-deepBlue rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-truck-monster"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-deepBlue mb-3">سحب السيارات المصدومة والمغرزة</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">معدات خاصة لسحب المركبات المتعثرة في الرمال أو المتضررة من الحوادث بحرص وعناية فائقة.</p>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="bg-lightBg rounded-2xl p-8 border border-slate-200/80 hover:shadow-lg transition duration-300">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-deepBlue mb-3">سطحات هيدروليك وعادية</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">يتوفر لدينا سطحات هيدروليك منزلة بالكامل للسيارات المنخفضة والرياضية، بالإضافة للسطحات العادية.</p>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="bg-lightBg rounded-2xl p-8 border border-slate-200/80 hover:shadow-lg transition duration-300">
+                    <div class="w-14 h-14 bg-blue-100 text-deepBlue rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-deepBlue mb-3">خدمة السحب والتواجد الفوري 24/7</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">جاهزية تامة على مدار اليوم وفي جميع أيام الأسبوع لتقديم المساعدة الطارئة والسريعة فور اتصالك.</p>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="bg-lightBg rounded-2xl p-8 border border-slate-200/80 hover:shadow-lg transition duration-300">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-deepBlue mb-3">التوصيل لمراكز الصيانة والورش</h4>
+                    <p class="text-slate-600 leading-relaxed text-sm">المساعدة في توجيه سيارتك ونقلها لأفضل الورش ومراكز الفحص المعتمدة بالقنفذة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-lightBg border-t border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-mintGreen font-bold text-sm tracking-wider uppercase">معرض الصور</span>
+                <h3 class="text-3xl font-extrabold text-deepBlue mt-2">صور من أعمالنا ومعداتنا</h3>
+                <p class="text-slate-600 mt-2">أسطولنا الحديث في خدمتكم لنقل مركباتكم بأمان تام</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Gallery Image 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <div class="h-60 bg-slate-200 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80" 
+                             alt="سطحة القنفذة في الخدمة" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-500"
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x600/1E3A8A/FFFFFF?text=%D8%B3%D8%B7%D8%AD%D8%A9+%D8%A7%D9%84%D9%82%D9%86%D9%81%D8%B0%D8%A9';">
+                    </div>
+                    <div class="p-4">
+                        <h5 class="font-bold text-deepBlue text-base">نقل آمن ومحترف</h5>
+                        <p class="text-xs text-slate-500 mt-1">سحب ونقل مختلف السيارات بأعلى درجات السلامة</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Image 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <div class="h-60 bg-slate-200 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80" 
+                             alt="خدمة نقل السيارات الليلية والنهارية" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-500"
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x600/1E3A8A/FFFFFF?text=%D8%B3%D8%B7%D8%AD%D8%A9+%D8%A7%D9%84%D9%82%D9%86%D9%81%D8%B0%D8%A9';">
+                    </div>
+                    <div class="p-4">
+                        <h5 class="font-bold text-deepBlue text-base">خدمة متواصلة 24/7</h5>
+                        <p class="text-xs text-slate-500 mt-1">تواجد دائم لمساعدتك في أي وقت ليلاً ونهاراً</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Image 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <div class="h-60 bg-slate-200 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=800&q=80" 
+                             alt="سحب سيارات في القنفذة" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-500"
+                             onerror="this.onerror=null; this.src='https://placehold.co/800x600/1E3A8A/FFFFFF?text=%D8%B3%D8%B7%D8%AD%D8%A9+%D8%A7%D9%84%D9%82%D9%86%D9%81%D8%B0%D8%A9';">
+                    </div>
+                    <div class="p-4">
+                        <h5 class="font-bold text-deepBlue text-base">استجابة فورية</h5>
+                        <p class="text-xs text-slate-500 mt-1">وصول سريع لموقعك داخل القنفذة وعلى الطرق السريعة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-mintGreen font-bold text-sm tracking-wider uppercase">لماذا نحن؟</span>
+                    <h3 class="text-3xl font-extrabold text-deepBlue leading-tight">
+                        لماذا تختار "سطحة القنفذة" لتكون خيارك الأول؟
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        نعلم تماماً مدى التوتر والضغط عند تعطل المركبة على الطريق. لذلك صُممت خدماتنا لتوفر لك الراحة والأمان التام من لحظة اتصالك وحتى وصول سيارتك لوجهتها المطلوب.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-1 font-bold">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-deepBlue text-lg">سرعة الوصول والاستجابة</h5>
+                                <p class="text-slate-500 text-sm">نصل إليك في أسرع وقت ممكن لنقل مركبتك ودون أوقات انتظار طويلة.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-1 font-bold">
+                                <i class="fa-solid fa-user-check"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-deepBlue text-lg">سائقون محترفون وذوو خبرة</h5>
+                                <p class="text-slate-500 text-sm">طاقم عمل مدرب يضمن التعامل السليم والآمن مع جميع أنواع المركبات.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 mt-1 font-bold">
+                                <i class="fa-solid fa-tag"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-deepBlue text-lg">أسعار عادلة ومناسبة</h5>
+                                <p class="text-slate-500 text-sm">تقديم أفضل قيمة مقابل الخدمة دون أي تكاليف خفية.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to action card inside why choose us -->
+                <div class="lg:col-span-6 bg-deepBlue text-white rounded-3xl p-8 sm:p-10 shadow-xl relative overflow-hidden">
+                    <div class="relative z-10 space-y-6">
+                        <h4 class="text-2xl font-bold">تحتاج سطحة الآن في القنفذة؟</h4>
+                        <p class="text-slate-200 leading-relaxed text-sm sm:text-base">
+                            لا تتردد في التواصل معنا على مدار الساعة. فريقنا جاهز للانطلاق لموقعك فوراً فور استلام اتصالك أو رسالتك.
+                        </p>
+
+                        <div class="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 text-center space-y-3">
+                            <span class="text-xs text-slate-300">انقر مباشرة للاتصال بنا</span>
+                            <a href="tel:0506148530" class="block text-3xl sm:text-4xl font-black text-mintGreen hover:text-emerald-300 transition dir-ltr">
+                                0506148530
+                            </a>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <a href="tel:0506148530" class="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold bg-mintGreen hover:bg-mintGreenHover transition text-white text-center">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>اتصال مباشر</span>
+                            </a>
+                            <a href="https://wa.me/966506148530" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold bg-emerald-600 hover:bg-emerald-700 transition text-white text-center">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span>إرسال الموقع واتساب</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                
+                <div class="flex items-center space-x-3 space-x-reverse">
+                    <div class="w-10 h-10 bg-deepBlue text-white rounded-lg flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-truck-pickup"></i>
+                    </div>
+                    <div>
+                        <h5 class="text-white font-bold text-lg">سطحة القنفذة</h5>
+                        <p class="text-xs text-slate-500">خدمة ونقل السيارات 24 ساعة</p>
+                    </div>
+                </div>
+
+                <div class="text-center md:text-right text-sm">
+                    <p>نغطي القنفذة، القوز، حلي، المظيلف، والطرق السريعة المجاورة.</p>
+                </div>
+
+                <div class="text-sm text-slate-500">
+                    &copy; جميع الحقوق محفوظة لـ سطحة القنفذة
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 p-3 md:hidden shadow-lg">
+        <div class="grid grid-cols-2 gap-3 max-w-md mx-auto">
+            <a href="tel:0506148530" class="flex items-center justify-center gap-2 py-3 px-4 bg-mintGreen active:bg-mintGreenHover text-white rounded-xl font-black shadow-md text-base">
+                <i class="fa-solid fa-phone text-lg animate-bounce"></i>
+                <span>اتصل الآن</span>
+            </a>
+            <a href="https://wa.me/966506148530" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 py-3 px-4 bg-emerald-600 active:bg-emerald-700 text-white rounded-xl font-black shadow-md text-base">
+                <i class="fa-brands fa-whatsapp text-xl"></i>
+                <span>واتساب</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
